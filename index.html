@@ -111,6 +111,14 @@
                 that the meta scores have much higher counts of high reviews, while the user score has a greater
                 number of low reviews. This may be part of the reason why the meta score has a slightly better
                 correlation with sales than the user score</p>
+                <figure>
+                    <img src="images/1-scores_boxplot.png" width="500">
+                    <figcaption>Figure 1 Review Scores Boxplots.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/2-review_scores_histogram.png" width="500">
+                    <figcaption>Figure 2 Review Scores Histogram.</figcaption>
+                </figure>
             <p>The meta score is a better predictor of sales than the user score. While the correlation isn't very strong,
                 it does exist. There is some basis for the reason behind this correlation. Many companies send out
                 review copies to critics in hopes that the reviews will boost sales<sup>5</sup>. Critics usually publish their review
@@ -134,6 +142,10 @@
                 scatterplot between the two variables would be useful to analyze the data further. The scatterplot can
                 be seen in Figure 3 below.
                 </p>
+                <figure>
+                    <img src="images/3-total_sales_number_games_released.jpg" width="500">
+                    <figcaption>Figure 3 Scatterplot of the number of games by a publisher and their total sales</figcaption>
+                </figure>
             <p>This correlation does not apply to the number of games released and the publisher's average meta
                 score. The correlation coefficient between these two variables is -.013, which is evidence of no
                 relationship between the number of games released and the average meta score.</p>
@@ -142,6 +154,10 @@
                 average meta score of 71.145 to the values in Table 2 (above), we prove that meta scores and sales
                 aren't strongly correlated, as 30% of the observations in Table 2 are below the average. This can also be
                 seen in Figure 4, a scatterplot of the number of games released and the meta score.</p>
+                <figure>
+                    <img src="images/4-metascore_number_games_released.jpg" width="500">
+                    <figcaption>Figure 4 Scatterplot of the number of games by a publisher and meta score.</figcaption>
+                </figure>
             <p>I compared the top ten game publishers by North American sales and by total sales for the past ten
                 years. I wanted to know if there is there a difference between those with high sales in North America
                 and those with high total sales. Could another region be driving publisher sales success? I found the
@@ -161,6 +177,10 @@
                 number of games released in relation to the date. I also compared the total sales of games over time,
                 using the patchwork package<sup>6</sup>, to see if there was a clear pattern between the number of games
                 released and total sales. This scatterplot can be seen in Figure 5.</p>
+                <figure>
+                    <img src="images/5-number_of_games_released_and_total_sales_by_month.png" width="500">
+                    <figcaption>Figure 5 Number of Games Released and Total Sales by Month.</figcaption>
+                </figure>
             <p>The point at the end should be ignored, as it includes two games yet to be released. The outlier of
                 games released in 2020 should also be ignored, as many games were misclassified to this date by the
                 websites.</p>
@@ -175,12 +195,20 @@
                 for the number of games released and the release date. This also holds for the correlation between
                 North American sales and the release date, which has a correlation coefficient of .229. Figure 6 shows a
                 graph comparing the sales to the release date.</p>
+                <figure>
+                    <img src="images/6-total_sales_by_release_date.jpg" width="500">
+                    <figcaption>Figure 6 Total Sales by Release Date.</figcaption>
+                </figure>
             <p>The trend of frequent outliers appears to be much greater for total sales than it is for North American
                 sales. Taking a slice_max of both North American and total sales shows this pattern is likely due to
                 increased sales during the holiday season. The top ten sales months for both these variables are in
                 October and November. Many game publishers have caught on to the increase in sales during these
                 months. Many of the months with the most games released are also in this timeframe. While there was
                 an increase in sales throughout the 2000s, the same cannot be said about review scores.</p>
+                <figure>
+                    <img src="images/7-review_scores_by_release_date.jpg" width="500">
+                    <figcaption>Figure 7 Review Scores by Release Date.</figcaption>
+                </figure>
             <p>Figure 7 shows that the review scores of games see a sharp decrease beginning in 2000. However, the
                 meta scores decreased much more drastically than the user scores during this time. While the meta
                 score began to increase again around 2010, the user score continued to decrease. This is reinforced in
