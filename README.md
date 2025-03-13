@@ -1,8 +1,6 @@
 # Video Game Sales and Metacritic Scores
 _by Luke Rubin, January 2023_
-![HTML5 badge](https://img.shields.io/static/v1?message=HTML
-%205&logo=HTML5&labelColor=E34F26&color=E34F26&logoColor=white&label=%20&style=for-
-the-badge)
+![HTML5 badge](https://img.shields.io/static/v1?message=HTML%205&logo=HTML5&labelColor=E34F26&color=E34F26&logoColor=white&label=%20&style=for-the-badge)
 ## :video_game: Summary
 According to PEW Research, 96% of adults aged 18-29 check reviews before making a
 purchase. But do higher ratings actually lead to more video game sales? This
